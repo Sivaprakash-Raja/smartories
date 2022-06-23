@@ -1,0 +1,98 @@
+CRITICAL - 2022-04-07 00:26:49 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(812): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 812, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadQuality('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 00:27:44 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(812): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 812, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadQuality('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 00:27:59 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(757): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 757, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 00:28:16 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(812): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 812, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadQuality('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:16:01 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(774): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 774, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:20:07 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(775): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 775, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:20:34 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(775): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 775, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:20:35 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(775): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 775, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:22:07 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(775): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 775, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:22:50 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(757): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 757, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:26:00 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(816): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 816, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadQuality('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 01:27:24 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(850): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 850, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateQuality('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-07 07:45:04 --> Call to undefined function App\Controllers\unique_multidim_array()
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->check()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 07:53:57 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(3378): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 3378, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1320): App\Controllers\Home->unique_multidim_array(NULL, 'User_Name')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

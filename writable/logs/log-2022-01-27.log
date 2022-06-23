@@ -1,0 +1,126 @@
+CRITICAL - 2022-01-27 02:56:44 --> Undefined array key "chart_data"
+#0 C:\xampp\htdocs\Grafana\app\Views\Quality.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Quality', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Quality', Array)
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(32): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Quality')
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-27 02:57:09 --> Undefined array key "chart_data"
+#0 C:\xampp\htdocs\Grafana\app\Views\Quality.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Quality', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Quality', Array)
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(32): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Quality')
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-27 02:57:39 --> Undefined array key "chart_data"
+#0 C:\xampp\htdocs\Grafana\app\Views\Quality.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Quality', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Quality', Array)
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(32): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Quality')
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-27 02:58:06 --> Undefined array key "chart_data"
+#0 C:\xampp\htdocs\Grafana\app\Views\Quality.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Quality', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Quality', Array)
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(32): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Quality')
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-27 04:51:47 --> Array to string conversion
+#0 C:\xampp\htdocs\Grafana\app\Views\Quality.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Quality', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Quality', Array)
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(33): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Quality')
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-01-27 04:53:54 --> Array to string conversion
+#0 C:\xampp\htdocs\Grafana\app\Views\Quality.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Quality', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Quality', Array)
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(33): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Quality')
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-01-27 11:41:34 --> Unknown column 'Minute' in 'field list'
+ERROR - 2022-01-27 11:44:51 --> Column 'Date' cannot be null
+ERROR - 2022-01-27 11:51:30 --> Column 'Date' cannot be null
+CRITICAL - 2022-01-27 11:53:48 --> Array to string conversion
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(193): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 193)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(319): App\Models\MainModel->updated_Correction_Rejection(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->updateCorrectionRejection()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 11:56:41 --> Column 'Date' cannot be null
+ERROR - 2022-01-27 11:59:53 --> Column 'Date' cannot be null
+ERROR - 2022-01-27 12:05:27 --> Column 'Reject_Reason_Type' cannot be null
+ERROR - 2022-01-27 12:14:32 --> Column 'Reject_Reason_Type' cannot be null
+CRITICAL - 2022-01-27 12:22:36 --> Array to string conversion
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(319): App\Models\MainModel->updated_Correction_Rejection(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->updateCorrectionRejection()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-27 12:23:30 --> Array to string conversion
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(319): App\Models\MainModel->updated_Correction_Rejection(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->updateCorrectionRejection()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-27 12:27:29 --> Column 'Reject_Reason_Type' cannot be null
+ERROR - 2022-01-27 12:29:43 --> Column 'Reject_Reason_Type' cannot be null
+CRITICAL - 2022-01-27 23:23:49 --> Cannot redeclare App\Controllers\Grafana::getCorrectionData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

@@ -1,0 +1,145 @@
+CRITICAL - 2022-06-14 00:11:25 --> Undefined variable $last_insert_id
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(1301): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1301)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(771): App\Models\MainModel->uploadReasonsQuality(Array, Array)
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->UploadQuality('Settings_Goals_...')
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-14 00:15:27 --> Unknown column 'img.status' in 'where clause'
+CRITICAL - 2022-06-14 00:15:27 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(836): App\Models\MainModel->getQualityData()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getQualityData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-14 02:01:36 --> Undefined array key 0
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(1532): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1532)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1019): App\Models\MainModel->getShift()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 02:02:16 --> Undefined array key 0
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(281): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 281)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1011): App\Models\MainModel->updateShift('06:30', '08:00', Array, 'UM1001')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 02:08:14 --> Undefined array key 0
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(1537): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1537)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1019): App\Models\MainModel->getShift()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-14 04:27:46 --> Undefined array key "Shifts"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(4157): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 4157)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->convertMachineData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 06:29:30 --> Unknown column 'original_file_name' in 'field list'
+ERROR - 2022-06-14 06:31:23 --> Unknown column 'original_file_name' in 'field list'
+ERROR - 2022-06-14 06:33:19 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-14 06:44:49 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-14 06:45:22 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-14 06:49:23 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-14 06:51:10 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-14 06:51:40 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-14 06:51:55 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-14 06:55:18 --> Unknown column 'original_file_name' in 'field list'
+ERROR - 2022-06-14 23:49:50 --> Table 'dub.settings_shift_management' doesn't exist
+CRITICAL - 2022-06-14 23:49:50 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(1118): App\Models\MainModel->getShift()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getRejectShift()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:50:30 --> Unknown column 'last_updated_on' in 'order clause'
+CRITICAL - 2022-06-14 23:50:30 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(498): App\Models\MainModel->getGoalsFinancialData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getGoalsFinancialData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:50:30 --> Table 'dub.settings_downtime_threshold' doesn't exist
+CRITICAL - 2022-06-14 23:50:30 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(504): App\Models\MainModel->getDowntimeTData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getDowntimeTData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:50:30 --> Table 'dub.settings_shift_management' doesn't exist
+CRITICAL - 2022-06-14 23:50:30 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(1023): App\Models\MainModel->getShift()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:50:30 --> Table 'dub.settings_downtime_reasons' doesn't exist
+CRITICAL - 2022-06-14 23:50:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(834): App\Models\MainModel->getDowntimeRData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getDowntimeRData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:50:30 --> Table 'dub.settings_current_shift_performance' doesn't exist
+CRITICAL - 2022-06-14 23:50:30 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(2514): App\Models\MainModel->current_shift_retrive_data()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->current_shift_retrive()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:51:27 --> Unknown column 'last_updated_on' in 'order clause'
+CRITICAL - 2022-06-14 23:51:27 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(498): App\Models\MainModel->getGoalsFinancialData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getGoalsFinancialData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:51:28 --> Table 'dub.settings_downtime_reasons' doesn't exist
+CRITICAL - 2022-06-14 23:51:28 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(834): App\Models\MainModel->getDowntimeRData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getDowntimeRData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:51:28 --> Table 'dub.settings_shift_management' doesn't exist
+CRITICAL - 2022-06-14 23:51:28 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(1023): App\Models\MainModel->getShift()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:51:28 --> Table 'dub.settings_downtime_threshold' doesn't exist
+CRITICAL - 2022-06-14 23:51:28 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(504): App\Models\MainModel->getDowntimeTData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getDowntimeTData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-14 23:51:28 --> Table 'dub.settings_current_shift_performance' doesn't exist
+CRITICAL - 2022-06-14 23:51:28 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(2514): App\Models\MainModel->current_shift_retrive_data()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->current_shift_retrive()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

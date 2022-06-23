@@ -1,0 +1,126 @@
+CRITICAL - 2022-05-09 06:39:26 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2319)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:39:26 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:39:45 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:39:45 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2319)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:41:29 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:41:29 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2319)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:42:41 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:42:41 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2319)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:43:02 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:43:02 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2607): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2607)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OppTrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:43:48 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2607): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2607)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OppTrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 06:43:48 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 07:54:55 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 07:54:55 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2319)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 09:34:27 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 09:34:27 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2319)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 23:39:36 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2902): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2902)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-09 23:39:36 --> Undefined array key "Power_Status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2319): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2319)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

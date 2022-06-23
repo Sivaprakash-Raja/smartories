@@ -1,0 +1,601 @@
+CRITICAL - 2022-02-28 01:51:18 --> syntax error, unexpected single-quoted string "Settings_Machine", expecting ")"
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Home/dashboard...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/Home/dashboard...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 01:51:54 --> syntax error, unexpected single-quoted string "Settings_Machine", expecting ")"
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Home/dashboard...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/Home/dashboard...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 01:52:40 --> syntax error, unexpected single-quoted string "Settings_Machine", expecting ")"
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Home/dashboard...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/Home/dashboard...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 04:24:05 --> Too few arguments to function App\Models\MainModel::userRecordCount(), 0 passed in C:\xampp\htdocs\SmartTech\app\Controllers\Home.php on line 816 and exactly 2 expected
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(816): App\Models\MainModel->userRecordCount()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCount()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 04:48:51 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCount()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 04:49:50 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCount()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 04:50:00 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCount()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 04:57:00 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCount()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 05:05:43 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(816): App\Models\MainModel->userRecordCount()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCount()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 05:07:44 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCount()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 05:19:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(816): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 05:35:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 05:42:29 --> Class "App\Controllers\UserManagementModel" not found
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 05:43:38 --> Class "App\Controllers\UserManagementModel" not found
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 05:44:36 --> Class "App\Controllers\UserManagementModel" not found
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 05:44:39 --> Class "App\Controllers\UserManagementModel" not found
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 05:44:43 --> Class "App\Controllers\UserManagementModel" not found
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 05:47:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 05:49:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 05:53:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 05:54:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 05:57:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 06:02:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:03:52 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:04:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:09:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:10:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:12:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:17:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-28 06:19:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*
+FROM `users_management`' at line 1
+CRITICAL - 2022-02-28 06:19:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:20:58 --> Array to string conversion
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(818): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 818)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:23:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:23:48 --> Call to a member function num_rows() on array
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:46:46 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:48:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:48:45 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:50:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(817): App\Models\MainModel->userRecordCountMngt()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:52:24 --> Array to string conversion
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(819): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 819)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 06:54:48 --> Array to string conversion
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(819): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 819)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->userRecordCountMngt()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 11:57:34 --> Unsupported operand types: int + string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 12:02:24 --> Unsupported operand types: int + string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 12:03:05 --> Unsupported operand types: int + string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 12:03:25 --> Unsupported operand types: int + string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-28 12:42:44 --> Undefined variable $Data
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 759)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(842): App\Models\MainModel->newUserAccount()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-28 12:48:27 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-4b5a0228...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-4b5a0228...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(842): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 12:48:51 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-3cf73ac6...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-3cf73ac6...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(842): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 12:49:33 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-de0dbf85...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-de0dbf85...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(842): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 12:51:54 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-00577497...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-00577497...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(842): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 12:53:01 --> Undefined variable $updatemsg
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 844)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 12:59:12 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-aeac32bb...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-aeac32bb...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:01:59 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-aeac32bb...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-aeac32bb...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:05:05 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-aeac32bb...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-aeac32bb...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:07:17 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-aeac32bb...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-aeac32bb...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:09:25 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-aeac32bb...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-aeac32bb...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:12:38 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-283629c5...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-283629c5...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:19:57 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-f4a331a7...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-f4a331a7...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:22:10 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-424201b4...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-424201b4...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:24:55 --> Undefined variable $updatemsg
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(846): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 846)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 13:25:50 --> Undefined variable $updatemsg
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 847)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 13:26:37 --> Undefined variable $updatemsg
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 847)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 13:30:13 --> Undefined variable $updatemsg
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(847): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 847)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-28 13:34:36 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-424201b4...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-424201b4...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:35:10 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-424201b4...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-424201b4...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAccount(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:37:53 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-424201b4...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-424201b4...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:44:23 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-424201b4...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-424201b4...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(843): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:47:08 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-d56a5bfa...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-d56a5bfa...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:48:05 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-d56a5bfa...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-d56a5bfa...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:51:09 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-d56a5bfa...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-d56a5bfa...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:52:03 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-d56a5bfa...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-d56a5bfa...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:52:50 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-da40eb67...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-da40eb67...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:56:57 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-25cc1890...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-25cc1890...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:57:45 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-25cc1890...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-25cc1890...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 13:59:27 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-25cc1890...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-25cc1890...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 14:00:16 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-d56a5bfa...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-d56a5bfa...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-28 14:03:35 --> You have not selected a database type to connect to.
+#0 C:\xampp\htdocs\SmartTech\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'custom-25cc1890...')
+#1 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(759): CodeIgniter\Database\Config::connect('custom-25cc1890...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(844): App\Models\MainModel->newUserAct(Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-02-28 20:55:45 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2022-02-28 20:55:45 --> Undefined array key "User_Name"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(850): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 850)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-28 20:56:10 --> Duplicate entry '2' for key 'PRIMARY'
+ERROR - 2022-02-28 20:56:10 --> Duplicate entry '2' for key 'PRIMARY'
+ERROR - 2022-02-28 20:59:29 --> Duplicate entry '2' for key 'PRIMARY'
+CRITICAL - 2022-02-28 22:06:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(890): CodeIgniter\Model->__call('userRecordCount', Array)
+#3 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(849): App\Controllers\Home->userRecordCountOpr()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

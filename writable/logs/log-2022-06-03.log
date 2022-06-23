@@ -1,0 +1,10 @@
+CRITICAL - 2022-06-03 09:10:36 --> syntax error, unexpected 'return' (T_RETURN)
+#0 C:\xampp\htdocs\oee-module_new\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module_new\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(14): spl_autoload_call('App\\Models\\Main...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

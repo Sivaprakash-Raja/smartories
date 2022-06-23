@@ -1,0 +1,132 @@
+CRITICAL - 2022-05-25 03:56:21 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 03:56:42 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 03:58:11 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:00:05 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:01:06 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:02:10 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:02:20 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:05:10 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:08:31 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2673): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:10:25 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2674): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:11:52 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2674): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:12:46 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2674): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:12:47 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2674): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:15:38 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2674): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 04:15:50 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2674): App\Models\MainModel->retrive_multiple_reason(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->retrive_reasons()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 07:43:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(437): CodeIgniter\Model->__call('getFilterDataPa...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getFilterDataPart()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-25 07:45:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(3460): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-25 07:45:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2925): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

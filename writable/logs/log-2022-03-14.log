@@ -1,0 +1,146 @@
+CRITICAL - 2022-03-14 01:42:26 --> Invalid file: Settings_Goals_Others.php
+#0 C:\xampp\htdocs\SmartTech\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Settings_Goals_...')
+#1 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#2 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(183): view('Settings_Goals_...', Array)
+#3 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#8 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-03-14 01:43:17 --> The uploaded file has already been moved.
+#0 C:\xampp\htdocs\SmartTech\system\HTTP\Files\UploadedFile.php(133): CodeIgniter\HTTP\Exceptions\HTTPException::forAlreadyMoved()
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(633): CodeIgniter\HTTP\Files\UploadedFile->move('./public/upload...', 'Reason_33.png')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-14 02:07:25 --> Operand should contain 1 column(s)
+ERROR - 2022-03-14 02:07:25 --> Operand should contain 1 column(s)
+ERROR - 2022-03-14 03:11:44 --> Unknown column 'Created_Date' in 'order clause'
+ERROR - 2022-03-14 03:11:44 --> Unknown column 'Created_Date' in 'order clause'
+CRITICAL - 2022-03-14 03:11:44 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(31): App\Models\MainModel->settings_machine()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 03:11:44 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(31): App\Models\MainModel->settings_machine()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 03:14:52 --> Undefined array key "Created_Date"
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Machines.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Machin...', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(183): view('Settings_Machin...', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-14 03:18:15 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 03:18:44 --> Undefined array key "Add_Machine_Data"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 03:19:15 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 03:20:03 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 03:20:32 --> Undefined array key "Add_Machine_Data"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 03:21:49 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-14 03:24:13 --> Unknown column 'Created_Date' in 'order clause'
+CRITICAL - 2022-03-14 03:24:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(144): App\Models\MainModel->getMachineId()
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(72): App\Controllers\Home->machineRecordCount()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addMachine('Settings_Machin...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-14 04:19:30 --> Unknown column 'Created_Date' in 'order clause'
+CRITICAL - 2022-03-14 04:19:30 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(32): App\Models\MainModel->settings_tools()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-14 04:29:00 --> Undefined array key "Created_Date"
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Tools.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 66)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Tools', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(183): view('Settings_Tools', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Tools')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-14 04:46:04 --> Undefined array key "Add_Tool"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(180): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 180)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addTool('Settings_Tools')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-14 04:46:36 --> Unknown column 'Created_Date' in 'order clause'
+CRITICAL - 2022-03-14 04:46:36 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(168): App\Models\MainModel->getPartId()
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(195): App\Controllers\Home->partRecordCount()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->addTool('Settings_Tools')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-14 04:47:06 --> Unknown column 'Part_Id' in 'field list'
+ERROR - 2022-03-14 05:00:01 --> Unknown column 'Part_Id' in 'field list'

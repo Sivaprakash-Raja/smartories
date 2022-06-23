@@ -1,0 +1,93 @@
+CRITICAL - 2022-02-25 11:42:39 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(517): App\Models\MainModel->deleteDownReason('10')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->deleteDownReason()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 11:44:05 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(517): App\Models\MainModel->deleteDownReason('9')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->deleteDownReason()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 11:44:09 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(517): App\Models\MainModel->deleteDownReason('9')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->deleteDownReason()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 11:45:00 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(517): App\Models\MainModel->deleteDownReason('9')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->deleteDownReason()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 11:45:08 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(517): App\Models\MainModel->deleteDownReason('9')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->deleteDownReason()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 11:48:21 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(517): App\Models\MainModel->deleteDownReason('9')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->deleteDownReason()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 11:50:26 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(517): App\Models\MainModel->deleteDownReason('9')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->deleteDownReason()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 11:56:42 --> Undefined variable $data
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(504): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 504)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(523): App\Models\MainModel->getDownReason('10')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getDownReason()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-25 19:10:10 --> Call to a member function getSize() on null
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-25 19:26:19 --> Undefined variable $Record_No
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(526): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 526)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 19:27:38 --> Array callback has to contain indices 0 and 1
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(526): App\Models\MainModel->updateReasons(Array, Array)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-25 20:16:23 --> Undefined array key "Quality_Reason"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(488): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 488)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(593): App\Models\MainModel->UpdateQuality(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UpdateQuality('Settings_Goals_...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-25 20:17:03 --> Unknown column 'Quality_Reason' in 'field list'
+CRITICAL - 2022-02-25 21:41:02 --> Array to string conversion
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(549): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 549)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadQuality('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

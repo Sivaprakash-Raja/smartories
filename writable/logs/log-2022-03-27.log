@@ -1,0 +1,36 @@
+CRITICAL - 2022-03-27 07:03:09 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\SmartTech\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\SmartTech\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-03-27 06:12:40 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Machines.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Machin...', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(183): view('Settings_Machin...', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-03-27 08:26:38 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Machines.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Machin...', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(183): view('Settings_Machin...', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

@@ -1,0 +1,238 @@
+CRITICAL - 2022-06-08 04:44:06 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 787, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(278): App\Models\User_Model->insert_site(Array, Array)
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->createNewUser()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 04:47:41 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 04:47:41 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 04:47:41 --> syntax error, unexpected '?>', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 04:54:02 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 787, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(278): App\Models\User_Model->insert_site(Array, Array)
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->createNewUser()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-08 04:57:21 --> Column 'location_id' cannot be null
+ERROR - 2022-06-08 04:58:52 --> Column 'location_id' cannot be null
+CRITICAL - 2022-06-08 05:00:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 787, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(279): App\Models\User_Model->insert_site(Array, Array)
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->createNewUser()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-08 05:03:44 --> Can't create database 's1003'; database exists
+CRITICAL - 2022-06-08 05:10:55 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(788): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 788, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(279): App\Models\User_Model->insert_site(Array, Array)
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->createNewUser()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:16:24 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(807): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(279): App\Models\User_Model->insert_site(Array, Array)
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->createNewUser()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:18:38 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(807): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(279): App\Models\User_Model->insert_site(Array, Array)
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->createNewUser()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:23:52 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:24:20 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:24:21 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:24:56 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:24:58 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:25:07 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:26:36 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:26:37 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:26:37 --> site_creation is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(822): CodeIgniter\Database\Config::connect('site_creation')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 05:27:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Models\User_Model.php(825): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 825, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\User_controller.php(542): App\Models\User_Model->import_db()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\User_controller->dbimport()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-08 07:59:25 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:07:02 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:14:38 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:22:54 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:23:55 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:32:08 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:33:42 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:34:51 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:35:59 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:37:19 --> Duplicate entry 's1004' for key 'site_id'
+ERROR - 2022-06-08 08:38:24 --> Duplicate entry 's1004' for key 'site_id'
+CRITICAL - 2022-06-08 23:52:05 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 23:52:05 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 23:52:46 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 23:52:46 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 23:53:48 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(3240): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->OppTrendDay()
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 23:53:48 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(3503): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 23:55:00 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-08 23:55:00 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

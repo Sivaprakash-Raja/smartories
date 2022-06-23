@@ -1,0 +1,76 @@
+CRITICAL - 2022-05-10 05:32:17 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\oee-module\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Home/dashboard...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/Home/dashboard...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 05:32:30 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2268): json_decode(Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 05:33:20 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2269): json_decode(Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 05:33:47 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2269): json_decode(Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 05:33:54 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2269): json_decode(Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 06:25:28 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 06:25:39 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 06:27:47 --> Unmatched '}'
+#0 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-10 07:17:37 --> Undefined variable $x
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2269)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-10 08:07:27 --> Too few arguments to function App\Models\MainModel::splitDownGraph(), 0 passed in C:\xampp\htdocs\oee-module\app\Controllers\Home.php on line 2274 and exactly 1 expected
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2274): App\Models\MainModel->splitDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph1()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,117 @@
+CRITICAL - 2022-02-11 00:42:24 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 00:43:12 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 01:01:41 --> Undefined array key "settings_tools"
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Tools.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 79)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Tools', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(241): view('Settings_Tools', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings_Tools')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-02-11 01:13:06 --> Table 'smarttech.settings_tools' doesn't exist
+CRITICAL - 2022-02-11 01:13:06 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(23): App\Models\MainModel->settings_tools()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings_Tools')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 01:17:59 --> Undefined array key "Last_Modified_Date"
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Tools.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Tools', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(241): view('Settings_Tools', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings_Tools')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-11 01:19:06 --> Undefined array key "Record_No"
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Tools.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Tools', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(241): view('Settings_Tools', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings_Tools')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-11 01:20:00 --> Undefined array key "Record_No"
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Tools.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Tools', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(241): view('Settings_Tools', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings_Tools')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-11 02:13:14 --> Undefined array key "Add_Tool"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->addTool('Settings_Tools')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 02:13:52 --> Undefined array key "Add_Tool"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->addTool('Settings_Tools')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 02:14:04 --> Undefined array key "Add_Tool"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(103): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 103)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->addTool('Settings_Tools')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 07:03:20 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Grafana.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-11 21:22:02 --> Unclosed '{' on line 7
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Grafana/dashboa...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Grafana/dashboa...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,14 @@
+.contentContainer{
+	margin-top: 4.5rem;
+}
+.textAlignCenter{
+	text-align: center;
+}
+.saveBtnStyle{
+	color: white;
+	background: #005abc;
+}
+.cancelBtnStyle{
+	color: #989fac;
+	background: #d9d9d9;
+}

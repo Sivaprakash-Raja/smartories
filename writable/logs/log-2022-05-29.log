@@ -1,0 +1,605 @@
+ERROR - 2022-05-29 00:13:03 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-29 00:13:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\oee-module3\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\oee-module3\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\oee-module3\app\Models\MainModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(31): App\Models\MainModel->settings_machine()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Production_Reje...')
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-29 01:00:45 --> Table 'dub.roles_master' doesn't exist
+CRITICAL - 2022-05-29 01:00:45 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Login.php(68): App\Models\UserLogin->accessControl('UM1001')
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Login->verifyUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 01:14:05 --> Illegal string offset 'users'
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Login.php(67): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 67, Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Login->verifyUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 01:25:32 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Login.php(60): App\Models\UserLogin->verifyUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Login->verifyUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 01:26:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Login.php(60): App\Models\UserLogin->verifyUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Login->verifyUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 01:26:29 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Login.php(60): App\Models\UserLogin->verifyUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Login->verifyUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 01:26:45 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Login.php(60): App\Models\UserLogin->verifyUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Login->verifyUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 01:38:38 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Login.php(60): App\Models\UserLogin->verifyUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Login->verifyUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 02:21:17 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(1588): CodeIgniter\Model->__call('userRecordCount...', Array)
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(1395): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 03:30:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(1588): CodeIgniter\Model->__call('userRecordCount...', Array)
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(1395): App\Controllers\Home->userRecordCountMngt()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->createNewUser()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-29 04:38:23 --> Table 'dub.users_management' doesn't exist
+CRITICAL - 2022-05-29 04:38:23 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(115): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(175): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->createNewUser()
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-29 04:45:30 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:45:30 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:46:32 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:46:32 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:47:44 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:47:44 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:47:59 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:47:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:48:00 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:48:00 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:48:01 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:48:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:48:01 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:48:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:48:01 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:48:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:48:02 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:48:02 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:48:28 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:48:28 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:55:59 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:55:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:55:59 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:55:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:00 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:00 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:00 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:00 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:01 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:01 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:01 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:01 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:02 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:02 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:02 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:02 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:02 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:02 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:03 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:03 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:56:05 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:56:05 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(129): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:57:13 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:57:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:57:14 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:57:14 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:57:33 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:57:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:57:34 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:57:34 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:57:34 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:57:34 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:57:35 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:57:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:57:59 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:57:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:58:08 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:58:08 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:58:09 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:58:09 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:58:09 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:58:09 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:58:10 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:58:10 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:58:10 --> Table 'dub.users_operator' doesn't exist
+CRITICAL - 2022-05-29 04:58:10 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(132): App\Models\User_Model->userRecordCountOpr()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountOpr()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 04:59:21 --> Unknown column 'created_on' in 'order clause'
+CRITICAL - 2022-05-29 04:59:21 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(126): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 05:00:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(126): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 05:00:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(126): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 05:00:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(126): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 05:00:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(126): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 05:00:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAll()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(126): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 05:00:58 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(126): App\Models\User_Model->userRecordCountMngt()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->userRecordCountMngt()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-29 05:37:47 --> Table 'dub.user' doesn't exist
+ERROR - 2022-05-29 05:37:47 --> Table 'dub.user' doesn't exist
+CRITICAL - 2022-05-29 06:20:52 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:20:52 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:21:13 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:21:13 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:21:20 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:21:45 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:21:45 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:22:42 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:22:42 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:22:48 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:22:48 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:23:13 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:23:13 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:24:32 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:24:32 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:25:45 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:25:45 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 06:28:07 --> syntax error, unexpected 'if' (T_IF)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

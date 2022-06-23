@@ -1,0 +1,36 @@
+CRITICAL - 2022-03-06 09:44:51 --> Array to string conversion
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 1208)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->workShiftManagement()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-06 09:48:26 --> Undefined variable $date
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 1207)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->workShiftManagement()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-06 09:48:42 --> Undefined array key 2
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1210): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 1210)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->workShiftManagement()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-06 21:36:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Users.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Users', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(182): view('Settings_Users', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(35): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Users')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

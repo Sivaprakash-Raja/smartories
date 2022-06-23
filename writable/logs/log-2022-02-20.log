@@ -1,0 +1,221 @@
+CRITICAL - 2022-02-20 07:08:16 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::from()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(21): App\Models\MainModel->settings_machine()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 07:09:01 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(21): App\Models\MainModel->settings_machine()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 12:57:55 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/UploadDown...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/UploadDown...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 12:58:17 --> syntax error, unexpected token "<"
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/UploadDown...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/UploadDown...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 12:59:15 --> fopen(http://localhost/SmartTech/Downtime_Reason/Planned/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 179)
+#1 C:\xampp\htdocs\SmartTech\system\HTTP\Files\UploadedFile.php(179): fopen('http://localhos...', 'x+b')
+#2 C:\xampp\htdocs\SmartTech\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(375): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', 'Check')
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-20 13:00:34 --> fopen(http://localhost/SmartTech/Downtime_Reason/Planned/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', 'C:\\xampp\\htdocs...', 179)
+#1 C:\xampp\htdocs\SmartTech\system\HTTP\Files\UploadedFile.php(179): fopen('http://localhos...', 'x+b')
+#2 C:\xampp\htdocs\SmartTech\system\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(375): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', 'Check')
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-20 13:16:36 --> Call to a member function getSize() on null
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-20 13:41:06 --> DirectoryIterator::__construct(/Downtime_Reason/Planned/): The system cannot find the path specifi (code: 3)
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Goals_Others.php(192): DirectoryIterator->__construct('/Downtime_Reaso...')
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(95): view('Settings_Goals_...', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(26): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-20 20:29:42 --> DirectoryIterator::__construct(/Downtime_Reason/Planned/): The system cannot find the path specifi (code: 3)
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Goals_Others.php(192): DirectoryIterator->__construct('/Downtime_Reaso...')
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(95): view('Settings_Goals_...', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(26): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-20 21:46:11 --> Undefined array key 0
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 362)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->editToolData()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 21:46:56 --> Undefined array key 0
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(362): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 362)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->editToolData()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 21:52:39 --> Undefined array key 0
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 360)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->editToolData()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 21:56:57 --> Undefined array key 0
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 360)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->editToolData()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 21:57:27 --> Undefined array key 0
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(360): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 360)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->editToolData()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-02-20 22:12:57 --> Table 'smarttech.settings_site_tool_log' doesn't exist
+ERROR - 2022-02-20 22:14:25 --> Table 'smarttech.settings_part_tool' doesn't exist
+ERROR - 2022-02-20 22:15:29 --> Table 'smarttech.settings_part_tool' doesn't exist
+CRITICAL - 2022-02-20 22:38:34 --> DirectoryIterator::__construct(/Downtime_Reason/Planned/): The system cannot find the path specifi (code: 3)
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Goals_Others.php(192): DirectoryIterator->__construct('/Downtime_Reaso...')
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(95): view('Settings_Goals_...', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(26): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-02-20 22:39:04 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#2 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(95): view('Settings_Goals_...', Array)
+#3 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(26): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#8 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-20 22:39:16 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#2 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(95): view('Settings_Goals_...', Array)
+#3 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(26): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#8 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-20 22:39:20 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#2 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(95): view('Settings_Goals_...', Array)
+#3 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(26): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#8 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-20 23:20:16 --> The file uploaded with success.(0)
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-20 23:21:29 --> The file uploaded with success.(0)
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-20 23:50:55 --> Call to undefined function App\Controllers\directory_map()
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-20 23:51:24 --> Call to undefined function App\Controllers\directory_map()
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-20 23:52:31 --> Array to string conversion
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(446): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 446)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->UploadDowntime('Settings_Goals_...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 23:59:22 --> syntax error, unexpected identifier "count"
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/UploadDown...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/UploadDown...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-20 23:59:35 --> syntax error, unexpected single-quoted string ".png", expecting ")"
+#0 C:\xampp\htdocs\SmartTech\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/UploadDown...')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Home/UploadDown...')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

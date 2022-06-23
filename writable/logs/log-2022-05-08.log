@@ -1,0 +1,46 @@
+CRITICAL - 2022-05-08 02:00:25 --> Call to undefined function App\Controllers\alert()
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_insert()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-08 02:40:47 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(1636): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(3394): App\Models\MainModel->insert_production_downtime_split(Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_insert()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-08 02:41:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(1636): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(3394): App\Models\MainModel->insert_production_downtime_split(Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_insert()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-08 02:42:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(1636): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(3394): App\Models\MainModel->insert_production_downtime_split(Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_insert()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-08 02:42:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(1636): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(3394): App\Models\MainModel->insert_production_downtime_split(Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_insert()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-08 02:43:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(1636): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(3394): App\Models\MainModel->insert_production_downtime_split(Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_insert()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

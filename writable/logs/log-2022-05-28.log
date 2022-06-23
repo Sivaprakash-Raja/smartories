@@ -1,0 +1,352 @@
+CRITICAL - 2022-05-28 05:49:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(19): App\Models\User_Model->checkUser('admin@gmail.com')
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->checkUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 05:55:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(19): App\Models\User_Model->checkUser('admin@gmail.com')
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->checkUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 05:55:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(19): App\Models\User_Model->checkUser('admin@gmail.com')
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->checkUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-28 06:12:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(1557): CodeIgniter\Model->__call('getSiteUser', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:14:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:20:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:26:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:26:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:27:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:28:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:32:37 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:37:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:38:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:45:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:46:07 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:47:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:47:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:49:59 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:51:37 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:53:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:54:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:55:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 06:56:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 07:00:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 07:01:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 07:03:05 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 07:05:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 07:06:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 07:08:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 08:05:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 08:06:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 08:07:14 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 08:56:02 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 08:58:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 09:02:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 09:08:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 09:08:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(317): CodeIgniter\Model->__call('getSiteName', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getSiteName()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-28 09:09:12 --> Call to a member function getSiteName() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteName()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 09:10:22 --> Call to a member function getSiteName() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteName()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 09:11:45 --> Call to a member function getSiteName() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteName()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-28 09:59:17 --> syntax error, unexpected '('
+#0 C:\xampp\htdocs\oee-module3\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/User_controlle...')
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/User_controlle...')
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

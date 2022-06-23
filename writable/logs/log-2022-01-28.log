@@ -1,0 +1,1128 @@
+CRITICAL - 2022-01-28 01:45:55 --> Invalid file: img_snow_wide.jpg
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('img_snow_wide.j...')
+#1 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('img_snow_wide.j...', Array, true)
+#2 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('img_snow_wide.j...', Array)
+#3 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(33): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('img_snow_wide.j...')
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 01:45:55 --> Invalid file: img_nature_wide.jpg
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('img_nature_wide...')
+#1 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('img_nature_wide...', Array, true)
+#2 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('img_nature_wide...', Array)
+#3 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(33): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('img_nature_wide...')
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 01:45:55 --> Invalid file: img_mountains_wide.jpg
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('img_mountains_w...')
+#1 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('img_mountains_w...', Array, true)
+#2 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('img_mountains_w...', Array)
+#3 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(33): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('img_mountains_w...')
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-01-28 10:07:42 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAjax
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:07:44 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAjax
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:07:46 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAjax
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:07:48 --> Undefined property: CodeIgniter\HTTP\IncomingRequest::$isAjax
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(339): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 339)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:33:53 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:33:54 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:33:55 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:33:57 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:33:59 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:01 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:03 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:05 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:07 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:10 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:11 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:13 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:15 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:17 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:19 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:22 --> Undefined variable $name
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:44 --> Undefined array key ""
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-01-28 10:34:48 --> Undefined array key ""
+#0 C:\xampp\htdocs\Grafana\app\Models\MainModel.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#4 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-01-28 10:34:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:34:52 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:34:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:34:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:34:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:34:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:00 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:02 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:12 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:12 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:26 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:29 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:29 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:31 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:56 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:35:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:35:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:03 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:05 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:07 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:09 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:11 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:23 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:25 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:27 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:29 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:31 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:37 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:39 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:41 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:36:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:36:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:37:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:37:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:37:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:37:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:37:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:37:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:03 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:05 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:07 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:09 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:11 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:23 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:25 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:27 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:29 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:31 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:37 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:39 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:41 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:45 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:47 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:47 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:49 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:51 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:51 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:53 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:55 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:57 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:38:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:38:59 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:01 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:03 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:05 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:07 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:07 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:09 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:11 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:23 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:25 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:27 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:29 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:31 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:33 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:37 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:39 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:41 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:43 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-01-28 10:39:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`=` = ''' at line 3
+CRITICAL - 2022-01-28 10:39:45 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:42:10 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:42:14 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:42:16 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:42:19 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:42:23 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:42:25 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:07 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:11 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:17 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:19 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:21 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:23 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:25 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:27 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:31 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:31 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:33 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:43:35 --> Call to undefined function App\Models\alert()
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(346): App\Models\MainModel->getDowntimeData(Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->getDowntimeData()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-28 10:57:48 --> syntax error, unexpected variable "$update"
+#0 C:\xampp\htdocs\Grafana\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Grafana/getDown...')
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('Grafana/getDown...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

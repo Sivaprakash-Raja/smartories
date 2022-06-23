@@ -1,0 +1,351 @@
+ERROR - 2022-03-09 06:07:26 --> Column 'Created_By' cannot be null
+CRITICAL - 2022-03-09 09:25:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\SmartTech\app\Views\Settings_Users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Users', Array, true)
+#4 C:\xampp\htdocs\SmartTech\app\Views\Grafana_Home.php(183): view('Settings_Users', Array)
+#5 C:\xampp\htdocs\SmartTech\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\SmartTech\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Users')
+#10 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-03-09 11:16:35 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-03-09 11:16:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 11:55:25 --> Not unique table/alias: 's'
+CRITICAL - 2022-03-09 11:55:25 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 11:56:18 --> Not unique table/alias: 's'
+CRITICAL - 2022-03-09 11:56:18 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 11:58:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`User`
+WHERE `u`.`Site_ID` = 'SI1001'
+OR `u`.`Site_ID` = 'SI1002'' at line 4
+CRITICAL - 2022-03-09 11:58:35 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 11:58:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+WHERE `u`.`Site_ID` = 'SI1001'
+OR `u`.`Site_ID` = 'SI1002'' at line 4
+CRITICAL - 2022-03-09 11:58:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 12:00:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+WHERE `u`.`Site_ID` = 'SI1001'
+OR `u`.`Site_ID` = 'SI1002'' at line 4
+CRITICAL - 2022-03-09 12:00:14 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:00:56 --> Too few arguments to function CodeIgniter\Database\BaseBuilder::join(), 1 passed in C:\xampp\htdocs\SmartTech\app\Models\MainModel.php on line 607 and at least 2 expected
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(607): CodeIgniter\Database\BaseBuilder->join('u.Role != "Smar...')
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-09 12:02:19 --> Not unique table/alias: 's'
+CRITICAL - 2022-03-09 12:02:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 12:02:36 --> Not unique table/alias: 's'
+CRITICAL - 2022-03-09 12:02:36 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 12:04:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+WHERE `u`.`Site_ID` = 'SI1001'
+OR `u`.`Site_ID` = 'SI1002'' at line 4
+CRITICAL - 2022-03-09 12:04:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 12:05:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`
+WHERE `u`.`Site_ID` = 'SI1001'
+OR `u`.`Site_ID` = 'SI1002'' at line 4
+CRITICAL - 2022-03-09 12:05:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:19:57 --> Undefined array key 2
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(607): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 607)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 12:20:44 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:22:46 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:23:05 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:25:40 --> sizeof(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1140): sizeof(4)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:26:37 --> sizeof(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1140): sizeof(4)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:27:52 --> sizeof(): Argument #1 ($value) must be of type Countable|array, int given
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1140): sizeof(4)
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:28:45 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:28:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:29:48 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 12:30:54 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 12:31:48 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 12:31:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-03-09 13:10:35 --> usort(): Argument #2 ($callback) must be a valid callback, function "date_compare" not found or invalid function name
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(636): usort(Array, 'date_compare')
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 13:18:09 --> usort(): Argument #2 ($callback) must be a valid callback, function "date_compare" not found or invalid function name
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(636): usort(Array, 'date_compare')
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 13:20:13 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(635): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 20:26:00 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(635): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-03-09 20:35:26 --> Column 'Site_ID' in where clause is ambiguous
+CRITICAL - 2022-03-09 20:35:26 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 21:36:50 --> syntax error, unexpected variable "$ref", expecting ")"
+#0 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-09 21:37:19 --> Unknown column 'SI1001' in 'on clause'
+CRITICAL - 2022-03-09 21:37:19 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-09 21:43:54 --> Unknown column 's.Site_Name' in 'field list'
+CRITICAL - 2022-03-09 21:43:54 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#1 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 21:52:32 --> syntax error, unexpected token "function"
+#0 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-09 21:55:25 --> syntax error, unexpected identifier "the"
+#0 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-03-09 21:55:42 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(647): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 21:58:08 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(647): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 21:58:52 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(647): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 22:04:02 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(647): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 22:07:31 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(647): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 22:09:36 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(647): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 22:10:01 --> usort(): Argument #1 ($array) must be of type array, null given
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(647): usort(NULL, Array)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(1138): App\Models\MainModel->getSiteUser('admin@gmail.com')
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->getSiteUser()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-09 22:30:31 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

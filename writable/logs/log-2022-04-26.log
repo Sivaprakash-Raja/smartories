@@ -1,0 +1,297 @@
+CRITICAL - 2022-04-26 04:53:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\oee-module\app\Views\Settings_Users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Users', Array, true)
+#4 C:\xampp\htdocs\oee-module\app\Views\Grafana_Home.php(217): view('Settings_Users', Array)
+#5 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Users')
+#10 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-04-26 04:06:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\oee-module\app\Views\Settings_Users.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Users', Array, true)
+#4 C:\xampp\htdocs\oee-module\app\Views\Grafana_Home.php(217): view('Settings_Users', Array)
+#5 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Users')
+#10 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-26 04:35:58 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:35:58 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Tools')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 04:42:41 --> Call to undefined function mysql_connect()
+#0 C:\xampp\htdocs\oee-module\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#3 C:\xampp\htdocs\oee-module\app\Views\Grafana_Home.php(217): view('Settings_Goals_...', Array)
+#4 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#7 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#8 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#9 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-26 04:43:04 --> Call to undefined function mysql_connect()
+#0 C:\xampp\htdocs\oee-module\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Goals_...', Array, true)
+#3 C:\xampp\htdocs\oee-module\app\Views\Grafana_Home.php(217): view('Settings_Goals_...', Array)
+#4 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#7 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#8 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#9 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-04-26 04:49:15 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:49:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:49:20 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:49:20 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Tools')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:49:21 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:49:21 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Machin...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:49:22 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:49:22 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Goals_...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:49:26 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:49:26 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:49:35 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:49:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:52:17 --> Table 'sample.users_management' doesn't exist
+CRITICAL - 2022-04-26 04:52:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-26 04:12:50 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:19:51 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:47:53 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:48:52 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:48:54 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:48:55 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:48:55 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:48:56 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:48:56 --> smarttech is not a valid database connection group.
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(9): CodeIgniter\Database\Config::connect('smarttech')
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(30): App\Models\MainModel->getUserInfo('manikanmani2000...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-26 04:50:54 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\oee-module\app\Views\Settings_Tools.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Tools', Array, true)
+#4 C:\xampp\htdocs\oee-module\app\Views\Grafana_Home.php(217): view('Settings_Tools', Array)
+#5 C:\xampp\htdocs\oee-module\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\oee-module\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\oee-module\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#8 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(36): view('Grafana_Home', Array)
+#9 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Settings_Tools')
+#10 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#11 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-04-26 04:18:13 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:18:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:19:48 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:19:48 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:19:57 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:19:57 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:21:35 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:21:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:33:31 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:33:31 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:34:25 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:34:25 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:39:08 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:39:08 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:03:17 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:03:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:09:42 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:09:42 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:11:15 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:11:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-26 04:11:48 --> Table 'smarttech.downtime_data' doesn't exist
+CRITICAL - 2022-04-26 04:11:48 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2247): App\Models\MainModel->getDownGraph()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getDownGraph()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,24 @@
+ERROR - 2022-06-18 20:27:07 --> Column 'last_updated_on' in order clause is ambiguous
+CRITICAL - 2022-06-18 20:27:07 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\User_controller.php(435): App\Models\User_Model->getSiteUser(Array)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-18 20:28:53 --> Column 'last_updated_on' in order clause is ambiguous
+CRITICAL - 2022-06-18 20:28:53 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\User_controller.php(435): App\Models\User_Model->getSiteUser(Array)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-18 20:29:09 --> Column 'last_updated_on' in order clause is ambiguous
+CRITICAL - 2022-06-18 20:29:09 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\User_controller.php(435): App\Models\User_Model->getSiteUser(Array)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

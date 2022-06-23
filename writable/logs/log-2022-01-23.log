@@ -1,0 +1,244 @@
+CRITICAL - 2022-01-23 22:38:21 --> Cannot call constructor
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(802): App\Controllers\Grafana->__construct()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-23 22:46:05 --> Undefined array key "Machine_Errors"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->fun()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:02:35 --> Undefined property: App\Controllers\Grafana::$data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->fun()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:03:06 --> Undefined variable $data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->fun()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:03:24 --> Undefined variable $data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->fun()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:05:22 --> Undefined variable $data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->fun()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:05:56 --> Undefined variable $data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 95)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->fun()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:06:49 --> Too few arguments to function App\Controllers\Grafana::fun(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->fun()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-23 23:34:44 --> Cannot call constructor
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(802): App\Controllers\Grafana->__construct()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-23 23:37:49 --> Undefined property: App\Controllers\Grafana::$datas
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:37:51 --> Undefined property: App\Controllers\Grafana::$datas
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:37:51 --> Undefined property: App\Controllers\Grafana::$datas
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:40:52 --> Undefined array key "Machine_Errors"
+#0 C:\xampp\htdocs\Grafana\app\Views\Settings_Machines.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Machin...', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Settings.php(72): view('Settings_Machin...')
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(275): view('Settings', Array)
+#9 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#12 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(26): view('Grafana_Home', Array)
+#13 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#14 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#15 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-23 23:41:34 --> Undefined array key "Machine_Errors"
+#0 C:\xampp\htdocs\Grafana\app\Views\Settings_Machines.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Machin...', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Settings.php(72): view('Settings_Machin...')
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(275): view('Settings', Array)
+#9 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#12 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(26): view('Grafana_Home', Array)
+#13 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#14 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#15 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-23 23:42:18 --> Undefined array key "Machine_Errors"
+#0 C:\xampp\htdocs\Grafana\app\Views\Settings_Machines.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 28)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings_Machin...', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Views\Settings.php(72): view('Settings_Machin...')
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings', Array, true)
+#8 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(275): view('Settings', Array)
+#9 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#12 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(26): view('Grafana_Home', Array)
+#13 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#14 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#15 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-01-23 23:44:19 --> Undefined array key "Machine_Errors"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:44:31 --> Undefined variable $data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:45:06 --> Undefined array key "Machine_Errors"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:45:29 --> Invalid file: Settings/Settings_Machines.php
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Settings/Settin...')
+#1 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings/Settin...', Array, true)
+#2 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Settings/Settin...', Array)
+#3 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(93): App\Controllers\Grafana->dashboard('Settings/Settin...')
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings', 'Settings_Machin...')
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-23 23:46:30 --> Invalid file: Settings/Settings_Machines.php
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Settings/Settin...')
+#1 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings/Settin...', Array, true)
+#2 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Settings/Settin...', Array)
+#3 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(93): App\Controllers\Grafana->dashboard('Settings/Settin...')
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings', 'Settings_Machin...')
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-23 23:46:40 --> Invalid file: Settings/Settings_Machines.php
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Settings/Settin...')
+#1 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings/Settin...', Array, true)
+#2 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Settings/Settin...', Array)
+#3 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(93): App\Controllers\Grafana->dashboard('Settings/Settin...')
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings', 'Settings_Machin...')
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-23 23:49:55 --> Invalid file: Settings/Settings_Machines.php
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Settings/Settin...')
+#1 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Settings/Settin...', Array, true)
+#2 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Settings/Settin...', Array)
+#3 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(28): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(93): App\Controllers\Grafana->dashboard('Settings/Settin...')
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings', 'Settings_Machin...')
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-23 23:50:09 --> Undefined array key "Add_Machine"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings', 'Settings_Machin...')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-23 23:56:21 --> Undefined variable $select_opt
+#0 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(94): view('Grafana_Home', Array)
+#5 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings', 'Settings_Machin...')
+#6 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#7 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-23 23:57:14 --> Undefined variable $select_opt
+#0 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(94): view('Grafana_Home', Array)
+#5 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->addMachine('Settings', 'Settings_Machin...')
+#6 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#7 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

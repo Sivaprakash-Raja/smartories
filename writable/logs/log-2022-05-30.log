@@ -1,0 +1,288 @@
+CRITICAL - 2022-05-30 04:53:52 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 04:53:57 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 04:56:42 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 04:57:00 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 04:57:29 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 04:59:07 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 04:59:45 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 06:03:15 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-05-30 06:03:37 --> Unknown column 'last_updated_on' in 'order clause'
+CRITICAL - 2022-05-30 06:03:37 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2908): App\Models\MainModel->splitDownGraph(Array, 'ME1121', '0')
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-30 06:03:43 --> Unknown column 'last_updated_on' in 'order clause'
+CRITICAL - 2022-05-30 06:03:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2908): App\Models\MainModel->splitDownGraph(Array, 'ME1059', '0')
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->splitDownGraph()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 07:33:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(3468): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 07:33:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2933): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 07:49:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(3468): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 07:49:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2933): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 07:49:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(2933): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->OEETrendDay()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 07:49:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module3\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module3\app\Controllers\Home.php(3468): CodeIgniter\Model->__call('getDowntimeValu...', Array)
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getGraph()
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-30 07:53:14 --> Too few arguments to function App\Controllers\Home::getDataRaw(), 0 passed in C:\xampp\htdocs\oee-module3\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getDataRaw()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 07:53:29 --> Too few arguments to function App\Controllers\Home::getDataRaw(), 0 passed in C:\xampp\htdocs\oee-module3\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getDataRaw()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 07:53:35 --> Too few arguments to function App\Controllers\Home::getDataRaw(), 0 passed in C:\xampp\htdocs\oee-module3\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getDataRaw()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 07:54:10 --> Too few arguments to function App\Controllers\Home::getDataRaw(), 0 passed in C:\xampp\htdocs\oee-module3\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getDataRaw()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 07:54:23 --> Too few arguments to function App\Controllers\Home::getDataRaw(), 0 passed in C:\xampp\htdocs\oee-module3\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getDataRaw()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 07:57:02 --> Too few arguments to function App\Controllers\Home::getDataRaw(), 0 passed in C:\xampp\htdocs\oee-module3\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\Home->getDataRaw()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 08:15:53 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 20:36:15 --> Call to a member function getSiteUser() on null
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 20:43:13 --> Call to undefined function App\Controllers\getVar()
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 20:44:18 --> Call to undefined function App\Controllers\getVar()
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 20:45:06 --> Call to undefined function App\Controllers\getVar()
+#0 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-30 21:19:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\app\Models\User_Model.php(377): CodeIgniter\Database\BaseConnection->table('')
+#1 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(356): App\Models\User_Model->getSiteUser(Array)
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 21:19:54 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module3\app\Models\User_Model.php(377): CodeIgniter\Database\BaseConnection->table('')
+#1 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(356): App\Models\User_Model->getSiteUser(Array)
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-30 21:20:46 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(356): App\Models\User_Model->getSiteUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 21:21:21 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(356): App\Models\User_Model->getSiteUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 21:21:28 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(356): App\Models\User_Model->getSiteUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 21:21:58 --> Call to a member function where() on null
+#0 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(356): App\Models\User_Model->getSiteUser(Array)
+#1 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(825): App\Controllers\User_controller->getSiteUser()
+#2 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User_controller))
+#3 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-30 23:53:31 --> syntax error, unexpected '$build' (T_VARIABLE)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 23:53:31 --> syntax error, unexpected '$build' (T_VARIABLE)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 23:53:31 --> syntax error, unexpected '$build' (T_VARIABLE)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 23:54:45 --> syntax error, unexpected '$build' (T_VARIABLE)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 23:54:45 --> syntax error, unexpected '$build' (T_VARIABLE)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-30 23:54:45 --> syntax error, unexpected '$build' (T_VARIABLE)
+#0 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module3\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User...')
+#3 C:\xampp\htdocs\oee-module3\app\Controllers\User_controller.php(13): spl_autoload_call('App\\Models\\User...')
+#4 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(802): App\Controllers\User_controller->__construct()
+#5 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\oee-module3\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module3\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

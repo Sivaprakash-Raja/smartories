@@ -1,0 +1,8 @@
+ERROR - 2022-06-17 00:18:26 --> Unknown column 'last_modified_on' in 'order clause'
+CRITICAL - 2022-06-17 00:18:26 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(17): App\Models\Financial_Model->getGoalsFinancialData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getOverallTarget()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

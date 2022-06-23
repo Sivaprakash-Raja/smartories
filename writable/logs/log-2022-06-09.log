@@ -1,0 +1,135 @@
+CRITICAL - 2022-06-09 00:16:47 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 00:16:47 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 00:38:46 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 00:38:46 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 00:59:16 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 00:59:16 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 01:03:58 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-09 01:03:58 --> Division by zero
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-06-09 05:02:02 --> Table 'dub.sf5' doesn't exist
+CRITICAL - 2022-06-09 05:02:02 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1141): App\Models\MainModel->getShift()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 05:07:26 --> Table 'dub.sf5' doesn't exist
+CRITICAL - 2022-06-09 05:07:26 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1141): App\Models\MainModel->getShift()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 05:07:36 --> Table 'dub.sf5' doesn't exist
+CRITICAL - 2022-06-09 05:07:36 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1141): App\Models\MainModel->getShift()
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 05:25:42 --> A non-numeric value encountered
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1005): CodeIgniter\Debug\Exceptions->errorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 1005, Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-09 06:30:14 --> Column 'tool_name' cannot be null
+ERROR - 2022-06-09 06:31:30 --> Column 'tool_name' cannot be null
+ERROR - 2022-06-09 06:33:12 --> Column 'tool_name' cannot be null
+ERROR - 2022-06-09 06:33:25 --> Column 'tool_name' cannot be null
+ERROR - 2022-06-09 06:34:51 --> Column 'tool_name' cannot be null
+CRITICAL - 2022-06-09 07:26:27 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2652, Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 07:26:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2652, Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 07:26:30 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2652, Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 07:26:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2652, Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-09 07:26:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 2652, Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

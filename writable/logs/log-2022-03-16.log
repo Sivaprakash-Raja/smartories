@@ -1,0 +1,9 @@
+CRITICAL - 2022-03-16 11:33:12 --> Invalid file: operator/operator_view.php
+#0 C:\xampp\htdocs\SmartTech\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('operator/operat...')
+#1 C:\xampp\htdocs\SmartTech\system\Common.php(1089): CodeIgniter\View\View->render('operator/operat...', Array, true)
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Operator.php(11): view('operator/operat...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Operator->index()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

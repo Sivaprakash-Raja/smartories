@@ -1,0 +1,274 @@
+CRITICAL - 2022-01-20 01:54:13 --> Undefined array key "Record"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 01:54:27 --> Undefined array key "Record"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 01:55:07 --> Attempt to read property "Record" on array
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 01:55:18 --> Attempt to read property "Record" on array
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 01:55:27 --> Attempt to read property "Record" on array
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 01:55:37 --> Array to string conversion
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 15)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:38:35 --> Undefined variable $data1
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 13)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:46:43 --> Undefined property: App\Controllers\Grafana::$data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 12)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:47:34 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php on line 12
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(12): CodeIgniter\HTTP\RedirectResponse->to('Grafana/dashboa...', Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:48:29 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, array given, called in C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php on line 12
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(12): CodeIgniter\HTTP\RedirectResponse->to('Grafana/dashboa...', Array)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:48:47 --> Undefined property: App\Controllers\Grafana::$data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:48:51 --> Undefined property: App\Controllers\Grafana::$data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:49:15 --> Undefined variable $select_sub_opt
+#0 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(266): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 266)
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#4 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(20): view('Grafana_Home', Array)
+#5 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#6 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#7 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-20 04:50:03 --> Undefined array key "raw_data_export"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 04:51:15 --> Undefined array key "raw_data_export"
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:00:42 --> Undefined constant "data"
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Raw_Data_Export', Array, true)
+#3 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Raw_Data_Export', Array)
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#7 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(23): view('Grafana_Home', Array)
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Raw_Data_Export')
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-20 05:01:04 --> Undefined constant "data"
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Raw_Data_Export', Array, true)
+#3 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Raw_Data_Export', Array)
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#7 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(23): view('Grafana_Home', Array)
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Raw_Data_Export')
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-20 05:02:09 --> Undefined constant "data"
+#0 C:\xampp\htdocs\Grafana\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Raw_Data_Export', Array, true)
+#3 C:\xampp\htdocs\Grafana\app\Views\Grafana_Home.php(272): view('Raw_Data_Export', Array)
+#4 C:\xampp\htdocs\Grafana\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Grafana\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 C:\xampp\htdocs\Grafana\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#7 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(23): view('Grafana_Home', Array)
+#8 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Raw_Data_Export')
+#9 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#10 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-01-20 05:19:50 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 2 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and exactly 3 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('Settings', 'Settings_Machin...')
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:19:55 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, string given, called in C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php on line 11
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(11): CodeIgniter\HTTP\RedirectResponse->to('Grafana/dashboa...', 'hi')
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:19:59 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, string given, called in C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php on line 11
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(11): CodeIgniter\HTTP\RedirectResponse->to('Grafana/dashboa...', 'hi')
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:20:59 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, string given, called in C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php on line 11
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(11): CodeIgniter\HTTP\RedirectResponse->to('Grafana/dashboa...', 'mani')
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:25:42 --> Undefined property: App\Controllers\Grafana::$data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('mani')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:26:12 --> Undefined property: App\Controllers\Grafana::$data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard('mani')
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:26:21 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, string given, called in C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php on line 11
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(11): CodeIgniter\HTTP\RedirectResponse->to('Grafana/dashboa...', 'mani')
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:26:39 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, string given, called in C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php on line 11
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(11): CodeIgniter\HTTP\RedirectResponse->to('Grafana/dashboa...', 'mani')
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->index()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:30:33 --> Undefined property: App\Controllers\Grafana::$data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:31:10 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:31:21 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:31:46 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:32:05 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:32:32 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:32:39 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:32:49 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:36:18 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and at least 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-20 05:37:41 --> Undefined variable $data
+#0 C:\xampp\htdocs\Grafana\app\Controllers\Grafana.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#3 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-20 05:38:11 --> Too few arguments to function App\Controllers\Grafana::dashboard(), 0 passed in C:\xampp\htdocs\Grafana\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(825): App\Controllers\Grafana->dashboard()
+#1 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Grafana))
+#2 C:\xampp\htdocs\Grafana\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Grafana\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

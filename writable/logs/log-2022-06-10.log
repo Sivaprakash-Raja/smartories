@@ -1,0 +1,230 @@
+CRITICAL - 2022-06-10 13:02:49 --> Invalid file: Home/load_option/Financial_FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:03:45 --> Invalid file: Home/load_option/Financial_FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:03:53 --> Invalid file: Home/load_option/Financial_FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Financial_FOeeD...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:04:09 --> Invalid file: Home/dashboard/Financial_FOeeDrillDown/.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/dashboard/...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/dashboard/...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/dashboard/...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Financial_FOeeD...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:04:59 --> Invalid file: Home/load_option/Financial_OpportunityInsights/.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Financial_FOeeD...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:16:09 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('Financial_FOeeD...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:16:14 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:16:17 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:20:04 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown/.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:20:05 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown/.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:21:51 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown/.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:21:52 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown/.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:21:53 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown/.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:22:34 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:27:05 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:27:30 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:27:31 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:27:32 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:27:32 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:27:32 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:27:33 --> Invalid file: Home/load_option/Financial_OpportunityInsights/FOeeDrillDown.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:28:04 --> Invalid file: Home/load_option/Financial_OpportunityInsights/1.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/load_optio...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Home/load_optio...', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Home/load_optio...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-10 13:39:08 --> Division by zero
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-10 13:39:08 --> Division by zero
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-10 13:40:30 --> Division by zero
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(25): App\Controllers\Financial_Metrics->getDataRaw('Overall', '', '')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->OverallOEETarget()
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-06-10 13:40:30 --> Division by zero
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(183): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Division by zer...', 'C:\\xampp\\htdocs...', 183, Array)
+#1 C:\xampp\htdocs\oee-module_new\app\Controllers\Financial_Metrics.php(451): App\Controllers\Financial_Metrics->getDataRaw('MachinewiseOEE', '', '')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Financial_Metrics->getMachineWiseOEE()
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Financial_Metrics))
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

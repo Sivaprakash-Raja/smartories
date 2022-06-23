@@ -1,0 +1,609 @@
+CRITICAL - 2022-05-19 00:39:29 --> Undefined variable $conn
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 247)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(937): App\Models\MainModel->updateShift()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 01:04:05 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-19 01:04:45 --> Undefined variable $db
+#0 C:\xampp\htdocs\oee-module\app\Models\MainModel.php(247): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 247)
+#1 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(937): App\Models\MainModel->updateShift()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-19 02:20:05 --> Undefined array key "status"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2545): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2545)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:21:43 --> Undefined array key "TIME"
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2546): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2546)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:22:48 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2559): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2559)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:24:59 --> Undefined variable $i
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2539): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2539)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:25:09 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2559): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2559)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:25:46 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2560): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2560)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:25:58 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2560): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2560)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:26:09 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2560): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2560)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:26:16 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2560): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2560)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:26:30 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2560): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2560)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:27:03 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2562)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:27:38 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2562)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:27:52 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2562)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:28:16 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2562)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:28:37 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2562): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2562)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:29:31 --> syntax error, unexpected identifier "print_r"
+#0 C:\xampp\htdocs\oee-module\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Home/productio...')
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/Home/productio...')
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:29:53 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2563)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:30:04 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2563)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:30:29 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2563)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:30:31 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2563)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:30:48 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2563): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2563)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:31:00 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2564)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:31:19 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2564)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:31:43 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2564)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:32:02 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2564): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2564)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:38:52 --> Undefined array key 1344
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(2566): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 2566)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->production_downtime_retrive()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-19 03:54:22 --> Table 's1001.pdm_corrections' doesn't exist
+CRITICAL - 2022-05-19 03:54:22 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1058): App\Models\MainModel->getCorrectionData(Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getCorrectionData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-19 03:58:14 --> Table 's1001.pdm_production_info' doesn't exist
+CRITICAL - 2022-05-19 03:58:14 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(1058): App\Models\MainModel->getCorrectionData(Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getCorrectionData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 04:01:25 --> syntax error, unexpected token "**", expecting "function" or "const"
+#0 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\oee-module\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(14): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 04:10:00 --> Cannot redeclare App\Controllers\Home::reject_form_func()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-05-19 04:29:22 --> Unknown column 'shift' in 'where clause'
+CRITICAL - 2022-05-19 04:29:22 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module\app\Controllers\Home.php(969): App\Models\MainModel->getRejectionData(Array)
+#1 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(825): App\Controllers\Home->getRejectionData()
+#2 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-19 06:54:47 --> Column 'tool_id' cannot be null
+CRITICAL - 2022-05-19 07:22:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:22:41 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:22:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:22:42 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:22:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:22:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:22:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:26:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:26:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:26:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:26:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:26:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:29:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:29:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:37:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:37:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:37:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:37:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:37:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:37:23 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:57 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:38:58 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:40:35 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:42:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:44:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2457): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:46:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:47:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:47:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:47:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:47:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:47:21 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:47:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 07:47:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(2458): CodeIgniter\Model->__call('getRejection_co...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->reject_form_func()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-19 23:06:26 --> Column 'tool_id' cannot be null
+CRITICAL - 2022-05-19 23:06:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(433): CodeIgniter\Model->__call('getFilterDataPa...', Array)
+#3 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->getFilterDataPart()
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-19 23:31:55 --> Column 'tool_id' cannot be null

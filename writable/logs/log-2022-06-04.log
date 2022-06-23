@@ -1,0 +1,97 @@
+CRITICAL - 2022-06-04 04:34:48 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getInsertID()
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(893): App\Models\MainModel->uploadReasonsQuality(Array, Array)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->UploadQuality('Settings_Goals_...')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-04 04:36:00 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-06-04 05:22:37 --> Unknown column 'origioal_file_extension' in 'field list'
+ERROR - 2022-06-04 05:22:59 --> Unknown column 'origioal_file_extension' in 'field list'
+ERROR - 2022-06-04 05:23:38 --> Unknown column 'origioal_file_extension' in 'field list'
+ERROR - 2022-06-04 05:24:33 --> Unknown column 'quality_reason' in 'field list'
+ERROR - 2022-06-04 05:26:18 --> Unknown column 'quality_reason' in 'field list'
+ERROR - 2022-06-04 05:32:55 --> Unknown column 'quality_reason' in 'field list'
+CRITICAL - 2022-06-04 05:35:57 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\xampp\htdocs\oee-module_new\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Home/dashboard...')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/Home/dashboard...')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-04 05:40:16 --> Unknown column 'origioal_file_extension' in 'field list'
+ERROR - 2022-06-04 05:43:14 --> Unknown column 'last_updated_by' in 'field list'
+ERROR - 2022-06-04 05:43:32 --> Unknown column 'last_updated_by' in 'field list'
+CRITICAL - 2022-06-04 05:44:45 --> syntax error, unexpected '$extension' (T_VARIABLE), expecting ')'
+#0 C:\xampp\htdocs\oee-module_new\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/Home/UpdateQua...')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/Home/UpdateQua...')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-04 05:44:59 --> Unknown column 'last_updated_by' in 'field list'
+CRITICAL - 2022-06-04 07:26:38 --> Invalid file: User_Controller.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User_Controller...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('User_Controller', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Views\Grafana_Home.php(266): view('User_Controller', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\oee-module_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('User_Controller', 'getlast_updated...')
+#8 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-04 07:26:50 --> Invalid file: User_Controller.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User_Controller...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('User_Controller', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Views\Grafana_Home.php(266): view('User_Controller', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\oee-module_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('User_Controller', 'getlast_updated...')
+#8 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-04 07:27:43 --> Invalid file: User_Controller.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User_Controller...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('User_Controller', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Views\Grafana_Home.php(266): view('User_Controller', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\oee-module_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('User_Controller', 'getlast_updated...')
+#8 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-04 07:27:55 --> Invalid file: User_Controller.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User_Controller...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('User_Controller', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Views\Grafana_Home.php(266): view('User_Controller', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\oee-module_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('User_Controller', 'getlast_updated...')
+#8 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-06-04 07:29:03 --> Invalid file: User_Controller.php
+#0 C:\xampp\htdocs\oee-module_new\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('User_Controller...')
+#1 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('User_Controller', Array, true)
+#2 C:\xampp\htdocs\oee-module_new\app\Views\Grafana_Home.php(266): view('User_Controller', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\oee-module_new\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 C:\xampp\htdocs\oee-module_new\system\Common.php(1089): CodeIgniter\View\View->render('Grafana_Home', Array, true)
+#6 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(41): view('Grafana_Home', Array)
+#7 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->dashboard('User_Controller', 'getlast_updated...')
+#8 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

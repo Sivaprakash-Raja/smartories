@@ -1,0 +1,2 @@
+ERROR - 2022-01-26 06:09:47 --> Unknown column 'PlantTEEP' in 'field list'
+ERROR - 2022-01-26 06:28:43 --> Column 'PowerFactorTo' cannot be null

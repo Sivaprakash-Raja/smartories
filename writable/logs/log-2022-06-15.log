@@ -1,0 +1,384 @@
+CRITICAL - 2022-06-15 00:21:59 --> Call to a member function getRejectionPart() on null
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->getCorrectionPart()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-15 00:29:37 --> Table 'dub.shift_management' doesn't exist
+CRITICAL - 2022-06-15 00:29:37 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\PDM_controller.php(33): App\Models\PDM_Model->getShift()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->getCorrectShift()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 00:30:11 --> Table 'dub.shift_management' doesn't exist
+CRITICAL - 2022-06-15 00:30:11 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\PDM_controller.php(33): App\Models\PDM_Model->getShift()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->getCorrectShift()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 00:41:21 --> Call to a member function getCorrectionData() on null
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->getCorrectionData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 00:41:49 --> Call to a member function getCorrectionData() on null
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->getCorrectionData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 01:02:25 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\PDM_controller.php(127): CodeIgniter\Model->__call('getRejectionDat...', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->getRejectionData()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-15 02:24:43 --> Unknown column 'Status' in 'where clause'
+CRITICAL - 2022-06-15 02:24:43 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\PDM_controller.php(165): App\Models\PDM_Model->reject_dropdown()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->Reject_retrive()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 02:24:44 --> Unknown column 'Status' in 'where clause'
+CRITICAL - 2022-06-15 02:24:44 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\PDM_controller.php(165): App\Models\PDM_Model->reject_dropdown()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->Reject_retrive()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 02:24:46 --> Unknown column 'Status' in 'where clause'
+CRITICAL - 2022-06-15 02:24:46 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\PDM_controller.php(165): App\Models\PDM_Model->reject_dropdown()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\PDM_controller->Reject_retrive()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PDM_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 03:44:11 --> Class 'App\Models\Settings_Model' not found
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(802): App\Controllers\Settings_controller->__construct()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 03:45:10 --> Class 'App\Models\Settings_Model' not found
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(802): App\Controllers\Settings_controller->__construct()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 04:13:15 --> Class 'App\Models\Models' not found
+#0 C:\xampp\htdocs\oee-module_new\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\oee-module_new\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\oee-module_new\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#4 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(14): spl_autoload_call('App\\Models\\Sett...')
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(802): App\Controllers\Settings_controller->__construct()
+#6 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#7 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-15 04:13:45 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(36): CodeIgniter\Model->__call('getSiteData', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 04:15:24 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(36): CodeIgniter\Model->__call('getSiteData', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 04:16:34 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(36): CodeIgniter\Model->__call('getSiteData', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 04:20:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(36): CodeIgniter\Model->__call('getSiteData', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 04:23:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(36): CodeIgniter\Model->__call('getSiteData', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 04:36:56 --> Cannot use object of type App\Models\Settings_Model as array
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 04:38:48 --> Cannot use object of type App\Models\Settings_Model as array
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 04:40:29 --> Call to a member function getMachineId() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(34): App\Controllers\Settings_controller->machineRecordCount()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->addMachine('Settings_Machin...')
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 04:43:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Models\Settings_Model.php(109): CodeIgniter\Model->__call('get_last_update...', Array)
+#3 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(74): App\Models\Settings_Model->getMachineData('MC1011')
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateMachine()
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#6 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-15 04:45:30 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Models\Settings_Model.php(109): CodeIgniter\Model->__call('get_last_update...', Array)
+#3 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(74): App\Models\Settings_Model->getMachineData(NULL)
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateMachine()
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#6 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-15 04:46:01 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Models\Settings_Model.php(109): CodeIgniter\Model->__call('get_last_update...', Array)
+#3 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(74): App\Models\Settings_Model->getMachineData(NULL)
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateMachine()
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#6 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-15 04:46:02 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Models\Settings_Model.php(109): CodeIgniter\Model->__call('get_last_update...', Array)
+#3 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(74): App\Models\Settings_Model->getMachineData(NULL)
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateMachine()
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#6 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-15 04:46:03 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Models\Settings_Model.php(109): CodeIgniter\Model->__call('get_last_update...', Array)
+#3 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(74): App\Models\Settings_Model->getMachineData(NULL)
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateMachine()
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#6 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-15 04:48:00 --> Column 'machine_id' cannot be null
+ERROR - 2022-06-15 04:48:27 --> Column 'machine_id' cannot be null
+ERROR - 2022-06-15 04:49:14 --> Column 'machine_id' cannot be null
+CRITICAL - 2022-06-15 04:55:21 --> Call to a member function getMachineData() on null
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->getMachineData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 04:55:34 --> Call to a member function getMachineData() on null
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->getMachineData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 04:55:58 --> Call to a member function getMachineData() on null
+#0 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->getMachineData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-15 05:07:24 --> Cannot redeclare App\Models\Settings_Model::check_machine_serialid()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-15 05:07:44 --> Cannot redeclare App\Models\Settings_Model::check_machine_serialid()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-15 05:08:37 --> Cannot redeclare App\Models\Settings_Model::check_machine_serialid()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-15 05:09:21 --> Cannot redeclare App\Models\Settings_Model::check_machine_serialid()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-15 05:09:28 --> Cannot redeclare App\Models\Settings_Model::check_machine_serialid()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-15 05:30:46 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1005')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:31:20 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1005')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:33:05 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1005')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:33:10 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1005')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:34:56 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1005')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:36:50 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1001')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:37:18 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1001')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:38:11 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData('PT1001')
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:38:20 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(283): App\Models\Settings_Model->getToolData(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->deactivateTool()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 05:56:36 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(392): CodeIgniter\Model->__call('getToolData', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getToolData()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 06:49:56 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(1060): CodeIgniter\Model->__call('getShift', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->getShiftData()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-15 08:19:50 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(652): App\Models\Settings_Model->current_shift_performance_model(Array)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->current_shift_performance()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 08:23:31 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(652): App\Models\Settings_Model->current_shift_performance_model(Array)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->current_shift_performance()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-15 08:24:40 --> Call to a member function table() on null
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(653): App\Models\Settings_Model->current_shift_performance_model(Array)
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->current_shift_performance()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 08:46:38 --> Unknown column 'rs.status' in 'where clause'
+CRITICAL - 2022-06-15 08:46:38 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(614): App\Models\Settings_Model->getQualityData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->getQualityData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 08:53:29 --> Unknown column 'rs.status' in 'where clause'
+CRITICAL - 2022-06-15 08:53:29 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(614): App\Models\Settings_Model->getQualityData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->getQualityData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 08:53:47 --> Unknown column 'rs.status' in 'where clause'
+CRITICAL - 2022-06-15 08:53:47 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(614): App\Models\Settings_Model->getQualityData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->getQualityData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 08:56:39 --> Unknown column 'rs.status' in 'where clause'
+CRITICAL - 2022-06-15 08:56:39 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\oee-module_new\app\Controllers\Settings_controller.php(614): App\Models\Settings_Model->getQualityData()
+#1 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Settings_controller->getQualityData()
+#2 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Settings_controller))
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-15 08:59:03 --> Unknown column 'status' in 'field list'
+CRITICAL - 2022-06-15 23:57:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module_new\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module_new\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module_new\app\Controllers\Home.php(2924): CodeIgniter\Model->__call('getShift', Array)
+#3 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(825): App\Controllers\Home->production_shift_retrive()
+#4 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\oee-module_new\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\oee-module_new\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

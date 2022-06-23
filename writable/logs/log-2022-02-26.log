@@ -1,0 +1,160 @@
+CRITICAL - 2022-02-26 06:49:15 --> Declaration of App\Models\MainModel::Update($data) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-26 15:10:25 --> Undefined variable $builder
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(652): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 652)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(679): App\Models\MainModel->updateRejectData(Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateRejectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 15:32:16 --> Cannot redeclare App\Controllers\Home::getRejectionData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-26 15:56:59 --> syntax error, unexpected token ".", expecting ")"
+#0 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-26 15:57:40 --> syntax error, unexpected token ".", expecting ")"
+#0 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-26 19:54:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(642): CodeIgniter\Model->__call('Calculation', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->Calculation()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-26 20:17:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(642): CodeIgniter\Model->__call('Calculation', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->Calculation()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-26 20:19:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(642): CodeIgniter\Model->__call('Calculation', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->Calculation()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-26 20:20:55 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\SmartTech\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\SmartTech\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(642): CodeIgniter\Model->__call('Calculation', Array)
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->Calculation()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-26 20:48:34 --> Cannot redeclare App\Models\MainModel::getCorrectData()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-26 22:35:50 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:38:30 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:42:44 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:42:48 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:43:28 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:44:58 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:46:58 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:48:01 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:52:50 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:54:37 --> Undefined array key "R_NO"
+#0 C:\xampp\htdocs\SmartTech\app\Models\MainModel.php(692): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 692)
+#1 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(726): App\Models\MainModel->updateCorrectData(Array, Array)
+#2 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(825): App\Controllers\Home->updateCorrectData()
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-02-26 22:58:24 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\SmartTech\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Main...')
+#2 C:\xampp\htdocs\SmartTech\app\Controllers\Home.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Main...')
+#3 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(802): App\Controllers\Home->__construct()
+#4 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(403): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\SmartTech\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\SmartTech\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

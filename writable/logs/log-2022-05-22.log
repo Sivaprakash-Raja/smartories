@@ -1,0 +1,151 @@
+ERROR - 2022-05-22 05:52:55 --> Table 'myguests' already exists
+CRITICAL - 2022-05-22 05:57:10 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('08:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 05:58:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('06:30', '06:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 05:59:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('06:30', '05:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 09:10:31 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('06:30', '05:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 09:11:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('06:30', '10:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 09:11:52 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('06:30', '09:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 09:11:53 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('06:30', '09:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:01:43 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('06:30', '05:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:02:26 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('07:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:02:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('07:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:02:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('07:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:02:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('07:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:02:28 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('07:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:03:18 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('07:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-22 11:15:27 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\oee-module2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\oee-module2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\oee-module2\app\Models\MainModel.php(233): CodeIgniter\Model->__call('createTable', Array)
+#3 C:\xampp\htdocs\oee-module2\app\Controllers\Home.php(1117): App\Models\MainModel->updateShift('07:30', '08:00', Array)
+#4 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(825): App\Controllers\Home->updateShift()
+#5 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\oee-module2\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\oee-module2\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
